@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 interface Props {
-  handleClick: () => {}
-  label: ''
+  handleClick: () => void
+  label: string
 }
 
 const buttonStyle = {
@@ -16,7 +16,7 @@ export const Button = (props: Props) => {
       style={buttonStyle}
       onClick={props.handleClick}
     >
-      {props.label} TEST 2
+      {props.label}
     </button>
   )
 }
