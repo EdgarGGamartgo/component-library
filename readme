@@ -1,0 +1,4 @@
+export PATH="$PATH:$(yarn global bin)"
+# This should not be used
+npm config set registry https://registry.npmjs.org/
+npm login --scope=@OWNER --registry=https://npm.pkg.github.com
