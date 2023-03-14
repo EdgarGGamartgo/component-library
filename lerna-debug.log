@@ -1,0 +1,9 @@
+39 error Error: Command failed with exit code 1: git commit -m v1.0.0
+39 error On branch main
+39 error Your branch is up to date with 'origin/main'.
+39 error
+39 error nothing to commit, working tree clean
+39 error     at makeError (/Users/edgarmartinez/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+39 error     at handlePromise (/Users/edgarmartinez/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
+39 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+39 error     at async Promise.all (index 0)

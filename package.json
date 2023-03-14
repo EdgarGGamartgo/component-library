@@ -1,0 +1,19 @@
+{
+  "name": "@edgarggamartgo/component-library",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  },
+  "scripts": {
+    "publish": "yarn build && lerna publish",
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "test": "" 
+  },
+  "publishConfig": {
+    "@edgarggamartgo":"registry=https://npm.pkg.github.com"
+  }
+}
