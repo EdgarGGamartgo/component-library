@@ -1,2 +1,11 @@
 node_modules/
+*~
+*.bak
+*.pyc
+*.pyc-2.4
+Thumbs.db
+*.iml
+.idea/
+*.yarn/
 .yarnrc
+gen/
