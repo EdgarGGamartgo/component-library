@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 interface Props {
-  handleClick: () => void
-  label: string
+  handleClick: () => void;
+  label: string;
 }
 
 const buttonStyle = {
