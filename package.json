@@ -1,20 +1,20 @@
 {
-  "name": "@edgarggamartgo/component-library",
+  "name": "@stoafund/component-library",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "version": "1.0.0",
   "devDependencies": {
     "lerna": "^6.5.1"
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "publish": "yarn build && lerna publish",
     "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
-    "test": ""
+    "test": "" 
   },
   "publishConfig": {
-    "@edgarggamartgo":"registry=https://npm.pkg.github.com"
+    "@stoafund":"registry=https://npm.pkg.github.com"
   }
 }

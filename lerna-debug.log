@@ -1,6 +1,0 @@
-33 error Error: Command failed with exit code 128: git add -- packages/ui-components/package.json
-33 error fatal: Pathspec 'packages/ui-components/package.json' is in submodule 'packages/ui-components'
-33 error     at makeError (/Users/edgarmartinez/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
-33 error     at handlePromise (/Users/edgarmartinez/.nvm/versions/node/v19.5.0/lib/node_modules/lerna/node_modules/execa/index.js:114:26)
-33 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-33 error     at async Promise.all (index 0)
