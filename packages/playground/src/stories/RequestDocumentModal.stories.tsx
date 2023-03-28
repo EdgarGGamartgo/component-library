@@ -14,4 +14,4 @@ export default {
     }
   }
 } as ComponentMeta<typeof Paragraph>;
-export const Primary: ComponentStory<typeof Paragraph> = () => <Paragraph label='A test' styles={{color: 'blue'}}/>;
+export const Primary: ComponentStory<typeof Paragraph> = () => <Paragraph label='test' styles={{color: 'green'}}/>;

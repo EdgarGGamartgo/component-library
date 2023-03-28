@@ -9,4 +9,4 @@ export default {
   component: Box,
 } as ComponentMeta<typeof Box>;
 
-export const Primary: ComponentStory<typeof Box> = () => <Box label='A test'/>;
+export const Primary: ComponentStory<typeof Box> = () => <Box label='test'/>;

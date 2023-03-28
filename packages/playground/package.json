@@ -23,7 +23,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=3495a3258d7e"
   },
   "eslintConfig": {
     "overrides": [
@@ -61,11 +62,14 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.2",
     "prop-types": "^15.8.1",
     "storybook-addon-designs": "^6.3.1",
     "webpack": "^5.76.2"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "playground@0.1.6"
 }
